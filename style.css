@@ -1,0 +1,75 @@
+.header{
+
+background: rgb(13, 43, 0);
+width: 100%;
+height: 300px;
+}
+
+.header .content{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 3%;
+}
+
+.header .content .p-1{
+color:rgb(150, 150, 150);
+font-family: 'Mukta', sans-serif;
+font-size: 50px;
+}
+.header .content .p-2{
+color: rgb(150, 150, 150);
+font-family: 'Mukta', sans-serif;
+font-size: 40px;
+}
+
+.header .img{
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+    @media screen and (max-width: 700px);{
+        nav,.row{
+            flex-direction:column;}
+        
+    }
+
+
+.info{
+    width: 90%;
+    height: auto;
+    background:rgb(13, 43, 0);
+    padding: 10px;
+    margin: 1px;
+}
+
+.info .tituloseccion{
+    color: rgb(150, 150, 150);
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+
+ border-bottom: 2px gray solid;
+}
+
+.info .tituloinfo{
+    color:rgb(150, 150, 150);
+    font-family: 'Mukta', sans-serif;
+    font-size: large;
+display: inline;
+margin-left: 20px;
+margin-right: 5px;
+
+}
+.info .titulodato{
+    color:rgb(150, 150, 150);
+    font-family: 'Mukta', sans-serif;
+    font-size: large;
+display: inline;
+
+}
