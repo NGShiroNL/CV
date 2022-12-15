@@ -33,11 +33,11 @@ font-size: 40px;
     overflow: hidden;
 }
 
-    @media screen and (max-width: 700px);{
+/*    @media screen and (max-width: 700px);{
         nav,.row{
             flex-direction:column;}
         
-    }
+    }*/
 
 
 .info{
